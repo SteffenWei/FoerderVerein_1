@@ -5,6 +5,7 @@ public class Startpunkt {
 		// TODO Auto-generated method stub
 		
 		//Hallo
+		//Wie gehts
 	}
 
 }
