@@ -5,7 +5,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JToolBar;
+
 import java.awt.Color;
+
 import javax.swing.JTextField;
 import javax.swing.JSpinner;
 import javax.swing.JSeparator;
@@ -16,10 +18,14 @@ import javax.swing.JLabel;
 import javax.swing.JComboBox;
 import javax.swing.JButton;
 import javax.swing.JTable;
+
 import java.awt.Component;
+
 import javax.swing.Box;
+
 import java.awt.Dimension;
 import java.awt.Canvas;
+import java.util.Scanner;
 
 
 public class GUI3 extends JFrame {
@@ -46,6 +52,9 @@ public class GUI3 extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+	
+	static Scanner scn = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {

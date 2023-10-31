@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FoerderantragListe {
 
-	static ArrayList<Förderantrag> Entries = new ArrayList<Förderantrag>();
+	static ArrayList<Foerderantrag> Entries = new ArrayList<Foerderantrag>();
 	
 	//defining a scanner
 	static Scanner scn = new Scanner(System.in);
@@ -36,7 +36,7 @@ public class FoerderantragListe {
 	//WARNING END
 	     
 	     
-	     Förderantrag tempEntry = new Förderantrag(tempStatus, tempName,tempBetrag, tempDatum,tempFachbereich, tempZahlungsrhytmus);
+	     Foerderantrag tempEntry = new Foerderantrag(tempStatus, tempName,tempBetrag, tempDatum,tempFachbereich, tempZahlungsrhytmus);
 	     Entries.add(tempEntry);
 	}
 	
