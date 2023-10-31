@@ -1,5 +1,5 @@
 
-public class Förderantrag {
+public class Foerderantrag {
 		// TODO Auto-generated constructor stub
 		
 		private boolean status;
@@ -9,7 +9,7 @@ public class Förderantrag {
 		private String area;
 		private String paymentRhythem;
 		
-		public Förderantrag(boolean status, String name, float sum, String date, 
+		public Foerderantrag(boolean status, String name, float sum, String date, 
 				String area, String paymentRhythem) {
 			
 			// TODO Auto-generated constructor stub
